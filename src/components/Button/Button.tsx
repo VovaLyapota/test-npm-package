@@ -1,10 +1,10 @@
-enum COLORS {
+export enum COLORS {
   RED = "red",
   GREEN = "green",
   BLUE = "blue",
 }
 
-interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   color: COLORS;
 }
 
