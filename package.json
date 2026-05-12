@@ -17,12 +17,12 @@
   "license": "ISC",
   "author": "rimidalvatopayl",
   "type": "module",
-  "main": "./dist/my-lib.umd.cjs",
-  "module": "./dist/my-lib.js",
+  "main": "./dist/mtl.umd.cjs",
+  "module": "./dist/mtl.js",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/mtl.js",
+      "require": "./dist/mtl.umd.cjs"
     }
   },
   "files": [
@@ -32,9 +32,14 @@
     "test": "npm run test"
   },
   "devDependencies": {
+    "@types/node": "^25.7.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "typescript": "^6.0.3",
     "vite": "^6.4.2"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite-plugin-dts": "^5.0.0"
   }
 }
