@@ -29,10 +29,12 @@
     "dist"
   ],
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "build": "vite build"
   },
   "devDependencies": {
     "@types/node": "^25.7.0",
+    "@types/react": "^19.2.14",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "typescript": "^6.0.3",
