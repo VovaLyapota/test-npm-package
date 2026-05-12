@@ -1,18 +1,22 @@
 {
-  "name": "test-npm-package",
+  "name": "@rimidalvatopayl/test-npm-package",
   "version": "1.0.0",
   "description": "Testing react components library to use some not in project",
   "keywords": [
     "Testing",
     "library"
   ],
-  "homepage": "https://github.com/VovaLyapota/test-npm-package#readme",
+  "homepage": "https://github.com/rimidalvatopayl/test-npm-package#readme",
   "bugs": {
-    "url": "https://github.com/VovaLyapota/test-npm-package/issues"
+    "url": "https://github.com/rimidalvatopayl/test-npm-package/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VovaLyapota/test-npm-package.git"
+    "url": "git+https://github.com/rimidalvatopayl/test-npm-package.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
   },
   "license": "ISC",
   "author": "rimidalvatopayl",
