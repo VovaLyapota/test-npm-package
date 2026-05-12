@@ -1,0 +1,40 @@
+{
+  "name": "test-npm-package",
+  "version": "1.0.0",
+  "description": "Testing react components library to use some not in project",
+  "keywords": [
+    "Testing",
+    "library"
+  ],
+  "homepage": "https://github.com/VovaLyapota/test-npm-package#readme",
+  "bugs": {
+    "url": "https://github.com/VovaLyapota/test-npm-package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VovaLyapota/test-npm-package.git"
+  },
+  "license": "ISC",
+  "author": "rimidalvatopayl",
+  "type": "module",
+  "main": "./dist/my-lib.umd.cjs",
+  "module": "./dist/my-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.js",
+      "require": "./dist/my-lib.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "npm run test"
+  },
+  "devDependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "typescript": "^6.0.3",
+    "vite": "^6.4.2"
+  }
+}
