@@ -6,20 +6,20 @@
     "Testing",
     "library"
   ],
-  "homepage": "https://github.com/rimidalvatopayl/test-npm-package#readme",
+  "homepage": "https://github.com/VovaLyapota/test-npm-package#readme",
   "bugs": {
-    "url": "https://github.com/rimidalvatopayl/test-npm-package/issues"
+    "url": "https://github.com/VovaLyapota/test-npm-package/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rimidalvatopayl/test-npm-package.git"
+    "url": "git+https://github.com/VovaLyapota/test-npm-package.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
     "access": "restricted"
   },
   "license": "ISC",
-  "author": "rimidalvatopayl",
+  "author": "VovaLyapota",
   "type": "module",
   "main": "./dist/mtl.umd.cjs",
   "module": "./dist/mtl.js",
@@ -33,7 +33,7 @@
     "dist"
   ],
   "scripts": {
-    "test": "npm run test",
+    "test": "vitest run",
     "build": "vite build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
